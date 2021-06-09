@@ -5,11 +5,20 @@
 
 /*카테고리별 세부 메뉴*/
 #HF_style {
+  z-index: 2;
   position: fixed;
   background-color: white;
   border-top: 0;
   border-bottom: 0;
   width: 100%;
+}
+
+.rolling_page{
+  position: relative;
+  margin-top: 300px;
+  background-color: white;
+  border-radius: 1.3em;
+
 }
 #pageone {
   background-color: white;
@@ -20,10 +29,18 @@
 .bak {
   max-width: 100%;
   object-fit: cover;
+  width: 100%;
+  position: fixed;
+}
+
+.bak img{
+  width: 100%;
+  height: 350px;
 }
 .main-content {
   text-align: center;
   background-color: white;
+  border-radius: 1.3em;
 }
 .ui-content h2 {
   padding-top: 0;
@@ -46,6 +63,7 @@
   margin-top: 0;
   color: tomato;
 }
+
 
 #p_hr {
   border-bottom: solid 1px rgba(148, 148, 148, 0.2);
